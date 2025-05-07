@@ -1,0 +1,37 @@
+
+/* 
+W3.org CSS Validator 
+https://jigsaw.w3.org/css-validator/
+
+*/
+
+
+/* default styles for wider screens */
+.default button {
+    font-size: 14px;
+    padding: 6px 12px;
+}
+
+.default label {
+    font-size: 16px;
+}
+
+/* for mobile/narrow screens */
+.mobile button {
+    font-size: 20px;
+    padding: 14px 24px;
+    background: #3366cc;
+    color: white;
+}
+
+.mobile label {
+    font-size: 22px;
+    color: #444;
+}
+
+img {
+    width: 800px;   /* Larger width */
+    height: auto;   /* Maintain aspect ratio */
+    border-radius: 8px;
+    border: 2px solid #ddd;
+}
